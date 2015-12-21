@@ -1,7 +1,11 @@
 #adminAppContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
     min-height: 75px;
     height: 15vmax;
     width: 100%;
+    z-index: 1000;
     background-color: lightgrey;
 /*    border-bottom: 5px dotted white;*/
     padding: 5px;

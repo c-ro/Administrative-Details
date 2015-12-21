@@ -84,7 +84,7 @@ $('#submit_note').click(function(){
 });
 
 /// BEGIN MESSAGE TICKER -- NEED TO IMPLEMENT OPTIONS PAGE inPUT.
-var tickerInput = ["ALL DJS: remember to floss before going on the air", "FCC say: don't make cusses on the radio, you'll murder the children if you do", "The time is (time), I'm (your name), and you're listening to WRFL Lexington!", "Backsell that playlist!"];
+var tickerInput = ["ALL DJS: announce Disorientation", "The FCC says it's okay with songs about drug use but not songs about sex.", "The time is (time), I'm (your name), and you're listening to WRFL Lexington!", "Backsell the playlist!"];
 var tickerOutput = [];
 
 function resizeStrings(array){
