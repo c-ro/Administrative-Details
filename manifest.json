@@ -16,7 +16,7 @@
         },
 
 	"background": {
-	"scripts": ["jquery-2.1.4.min.js","background.js"] //, "content.js"
+	"scripts": ["jquery-2.1.4.min.js","background.js", "jquery.csv-0.71.min.js"] //, "content.js"
 	// "page": "background.html"
 	},
 

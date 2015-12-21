@@ -1,0 +1,338 @@
+{
+  "0:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "12:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Puccini's #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "12:30": {
+    "fcc":"Safe",
+    "psa":5,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "12:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Mecca #1",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "1:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "1:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Cosmic Charlie's #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "1:30": {
+    "fcc":"Safe",
+    "psa":6,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "1:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Morris Bookshop #1",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "2:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "2:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Tadoo #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "2:30": {
+    "fcc":"Safe",
+    "psa":7,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "2:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Carnegie Center #1",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "3:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "3:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "3:30": {
+    "fcc":"Safe",
+    "psa":8,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "3:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: CD Central #2",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "4:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "4:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Doodle's #2",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "4:30": {
+    "fcc":"Safe",
+    "psa":9,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "4:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Sqecial #2",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "5:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"Safe Harbor",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "5:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Shooting Frenzy #2",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "5:30": {
+    "fcc":"Safe",
+    "psa":1,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "5:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Puccini's #2",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "6:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "6:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Mecca #2",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "6:30": {
+    "fcc":"",
+    "psa":2,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "6:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Cosmic Charlie's #2",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "7:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "7:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Morris Bookshop #2",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "7:30": {
+    "fcc":"",
+    "psa":3,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "7:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Tadoo #2",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "8:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "8:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Carnegie Center #2",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "8:30": {
+    "fcc":"",
+    "psa":4,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "8:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "9:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "9:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: CD Central #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "9:30": {
+    "fcc":"",
+    "psa":5,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "9:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Doodle's #1",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "10:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "10:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Sqecial #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "10:30": {
+    "fcc":"",
+    "psa":6,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "10:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Shooting Frenzy #1",
+    "mp32":"",
+    "concert calendar":"X"
+  },
+  "11:00": {
+    "fcc":"Legal",
+    "psa":null,
+    "mp31":"General Promo",
+    "mp32":"",
+    "concert calendar":""
+  },
+  "11:15": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Puccini's #1",
+    "mp32":"Artist ID",
+    "concert calendar":""
+  },
+  "11:30": {
+    "fcc":"",
+    "psa":7,
+    "mp31":"",
+    "mp32":"Blockshow Promo",
+    "concert calendar":""
+  },
+  "11:45": {
+    "fcc":"",
+    "psa":null,
+    "mp31":"Grant: Mecca #1",
+    "mp32":"",
+    "concert calendar":""
+  }
+}

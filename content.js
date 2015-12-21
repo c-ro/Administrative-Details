@@ -4,31 +4,30 @@ $(document).ready(function(){
   $('#adminAppContainer').append("<div id='clock'></div>");
   $('#adminAppContainer').append("<div id='buttonDiv'></div>");
   $('#buttonDiv').append("<div id='general' class='lowlight'>General Promo</div>");
-  $('#buttonDiv').append("<div id='artistid' class='lowlight'>Artist ID</div>");  
-  $('#buttonDiv').append("<div id='blockshow' class='lowlight'>Blockshow</div>"); 
-  $('#buttonDiv').append("<div id='psa' class='lowlight'>PSA</div>"); 
+  $('#buttonDiv').append("<div id='artistid' class='lowlight'>Artist ID</div>");
+  $('#buttonDiv').append("<div id='blockshow' class='lowlight'>Blockshow</div>");
+  $('#buttonDiv').append("<div id='psa' class='lowlight'>PSA</div>");
   $('#buttonDiv').append("<div id='grant' class='lowlight'>Grant</div>");
+  // $('#buttonDiv').append("<div id='grant' class='lowlight'>Concerts</div>");
   $('#adminAppContainer').append("<div id='countdown'></div>");
   // $('#adminAppContainer').append("<div id='chatcontainer'></div>");
-  $('#buttonDiv').append("<button id='submit_note'>leave note</button>")
+  // $('#buttonDiv').append("<button id='submit_note'>leave note</button>");
   $('#adminAppContainer').append("<div id='ticker'></div>");
   $("<div id='transition' class='gradient'></div>").insertAfter('#adminAppContainer');
   $('#adminAppContainer').toggle();
   $('#transition').toggle();
 
+  $('#psa').addClass('hovertext').attr('data-text','PSA #1');
+
 // SEND STATUS CHECK MESSAGE on DOCUMENT END
 chrome.runtime.sendMessage({"extStatus": "check"}, function(response){
-  
+  console.log(response);
   if(response.currentStatus === "open"){
       $('#adminAppContainer').show();
       $('#transition').show();
       $('#nowTopBox').hide();
       $('#social-links').hide();
-    // console.log(response.currentStatus + " yey");
     }
-  // if(response.currentStatus === "closed"){
-  //   console.log(response.currentStatus + " boo");
-  // }
 });
 
 /// LISTENER: TOGGLE APP
@@ -40,7 +39,7 @@ chrome.runtime.onMessage.addListener(
       $('#nowTopBox').toggle();
       $('#social-links').toggle();
       }
-    })
+    });
 
 /// LISTENER: COLORS, TIMES AND TOGGLES
 chrome.runtime.onMessage.addListener(
@@ -69,11 +68,15 @@ chrome.runtime.onMessage.addListener(
     if(request.bgColor !== null && request.blink !== undefined){
      $('#adminAppContainer').css('background-color', request.bgColor);
   
-    var gradColor = "-webkit-linear-gradient(" + request.bgColor + ",rgba(255,0,0,0))"
+    var gradColor = "-webkit-linear-gradient(" + request.bgColor + ",rgba(255,0,0,0))";
     $('#transition').css('background', gradColor);
     }
 
-  })
+    if(request.hoverData !== null && request.hoverData !== undefined){
+      $('#general').addClass('hovertext').attr('data-text', 'HOVERTEXT BITCHEZ');
+    }
+
+  });
 
 /// Note Input
 $('#submit_note').click(function(){
@@ -87,13 +90,13 @@ var tickerOutput = [];
 function resizeStrings(array){
   for(var i = 0; i < array.length; i++){
     if(array[i].length <= 85){
-      tickerOutput.push(array[i])
+      tickerOutput.push(array[i]);
     } else {
       tickerOutput.push(array[i].slice(0,85) + ". . .");
         if(array[i].slice(85).length > 85){
           tickerOutput.push(array[i].slice(85,170) + ". . .");
           tickerOutput.push(array[i].slice(170) + ". . .");
-        };
+        }
     }
   }
 }
@@ -103,9 +106,9 @@ var showTicker = function(){
     if(messageIndex === tickerOutput.length){messageIndex = 0;}
     tickerDiv = $('#ticker');
     $(tickerDiv).fadeOut("slow");
-    setTimeout(function(){$(tickerDiv).html(tickerOutput[messageIndex]); $(tickerDiv).fadeIn("slow"); messageIndex++;},750); 
+    setTimeout(function(){$(tickerDiv).html(tickerOutput[messageIndex]); $(tickerDiv).fadeIn("slow"); messageIndex++;},750);
     setTimeout(showTicker, 7500);
-}
+};
 
 resizeStrings(tickerInput);
 showTicker();
@@ -122,23 +125,16 @@ function highlight(button) {
   $(button).attr("class", "highlight");
 }
 
-  var blockshow = $('#blockshow')
-  var artistid = $('#artistid')
-  var psa = $('#psa')
-  var grant = $('#grant')
-  var general = $('#general')
-  var buttons = [general, blockshow, artistid, grant, psa];
+  var blockshow = $('#blockshow');
+  var artistid = $('#artistid');
+  var psa = $('#psa');
+  var grant = $('#grant');
+  var general = $('#general');
+  var buttons = [general, blockshow, artistid, grant, psa,];
 
   for(var i = 0; i < buttons.length; i++){
     $(buttons[i]).click(function(){
        lowlight(this);
     });
   }
-
-//not sure if I'm using this. . . may 20th
-var toggleButtonState = function () {
-    swap(this.id);
-};
-
-
 });

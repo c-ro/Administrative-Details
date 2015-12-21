@@ -56,6 +56,27 @@
     top: 0;
 }
 
+.hovertext {
+    /* HOVERTEXT CSS BABY!*/
+    display: inline;
+    position: relative;
+}
+
+.hovertext:hover:after{
+    font-size: 18px;
+    background: #333;
+    background: rgba(0,0,0,.75);
+    border-radius: 10px;
+    bottom: 20px;
+    color: #fff;
+    content: attr(data-text);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
 .lowlight {
     margin-right: .5vw; 
     margin-left: .5vw;
